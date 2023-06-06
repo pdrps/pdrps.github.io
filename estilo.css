@@ -1,0 +1,437 @@
+
+
+.sidebar{
+    font-size: 20px;
+    background-color: rgb(241, 241, 241);
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 300px;
+    height: 1300px;
+    border-right: 1px solid rgb(211, 211, 211);
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.menu{
+    border-bottom: 1px solid rgb(211, 211, 211);
+    width: 1890px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.barra_pesquisa{
+    margin-left: 40px;
+    margin-top: -15px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    width: 400px;
+
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.category{
+    font-size: 15px;
+    color: rgb(168, 168, 168);
+}
+
+.itens_menu{
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+}
+
+.itens_menu2{
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+    color: blue;
+}
+
+p{
+    color: blue;
+}
+
+.sales{
+    margin-top: -1200px;
+    margin-left: 290px;
+    border-bottom: 1px solid rgb(211, 211, 211);     
+    width: 1600px;
+    height: 30px;
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-content:space-around;
+}
+
+.calendar{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 1100px;
+    margin-top: -20px;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.download{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.profit{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 350px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 50px;
+}
+
+.year{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.verde{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(188, 247, 188);
+    border: 2px solid green; 
+    border-radius: 20px;
+    color: green;
+    height: 40px;
+    align-self: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.texto{
+    color: grey;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+
+.user_activity{
+    width: 500px;
+    height: 390px;
+    margin-top: 20px;
+    margin-left: 350px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.week{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.linha{
+    margin-top: 10px;
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.top_countries{
+    width: 500px;
+    height: 380px;
+    margin-top: 20px;
+    margin-left: 350px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.linha_grafico{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.texto_linha_gráfico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 20px;
+    width: 430px;
+}
+
+.linha_cinza{
+    background-color: rgb(224, 219, 219);
+    width: 430px;
+    height: 7px;
+    border: 1px solid rgb(224, 219, 219);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.linha_azul_swiss{
+    background-color: blue;
+    width: 360px;
+    height: 7px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.linha_azul_us{
+    background-color: blue;
+    width: 330px;
+    height: 7px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.linha_azul_canada{
+    background-color: blue;
+    width: 250px;
+    height: 7px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.linha_azul_australia{
+    background-color: blue;
+    width: 180px;
+    height: 7px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.linha_azul_qatar{
+    background-color: blue;
+    width: 250px;
+    height: 7px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.overview{
+    width: 1000px;
+    height: 940px;
+    margin-left: 875px;
+    margin-top: -944px;
+    background-color: rgb(245, 245, 245);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.titulo_overview{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 50px;
+    width: 1000px;
+}
+
+.download_overview{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 720px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.overall_sales{
+    width: 950px;
+    height: 400px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.titulo_overall{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 50px;
+    width: 950px;
+}
+
+.numeros_lado_grafico{
+    height: 300px;
+    margin-left: -850px;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.meses_grafico{
+    width: 800px;
+    margin-left: 0px;
+    margin-top: -40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top_selling{
+    width: 950px;
+    height: 400px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+}
+
+.sort_by{
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    margin-left: 1100px;
+    margin-top: -20px;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content:center;
+}
+
+.cabecalho_top_selling{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 40px;
+    width: 950px;
+}
+
+.linha_top_selling{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 60px;
+    width: 950px;
+}
+
+.linha_top_selling_final{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    height: 60px;
+    width: 950px;
+}
